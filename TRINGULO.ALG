@@ -1,23 +1,22 @@
-Algoritmo "triangulo"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Jaisol
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+Algoritmo "AreaTriangulo"
+// Disciplina  : [Lógica de Programação com JavaScript]
+// Professor   : Jailson
+// Descrição   : Ler a base, a altura e calcular a area de um triangulo
+// Autor(a)    : Eduardo Santos Silva
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis 
-a: inteiro
-b: inteiro
-c: inteiro
- resposta: caractere
+
+   // Seção de Declarações das variáveis
+   area,base,altura:real
+
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
- escreval ("digite o lado a:")
- leia(a)
- escreval ("digite o lado b:")
- leia(b)
- escreval ("digite o lado c:")
- leia(c)
- se (a <> b) e (b <> c) e (a <> c) entao
- resposta ( "calculo dos lados
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite o valor da base de um triângulo :")
+   Leia(base)
+   Escreval("Digite o valor da altura de um triângulo :")
+   Leia(altura)
+   area<-base*altura/2
+   Escreval("O valor da área de um triângulo é :",area)
+
 Fimalgoritmo
+tem menu de contexto

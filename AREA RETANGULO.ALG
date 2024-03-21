@@ -6,9 +6,9 @@ Algoritmo "Area retangulo"
 // Data atual  : 18/03/2024
 Var
 // Seção de Declarações das variáveis 
-base:inteiro
-altura:inteiro
-area:inteiro
+base: real
+altura: real
+area: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 Escreva("digite a base: ")
